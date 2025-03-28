@@ -24,9 +24,9 @@ function App() {
   }, []);
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
+    <div className="allpage">
       <Header />
-      <div style={{ display: "flex", flex: 1 }}>
+      <div className="container">
         <Sidebar navigate={navigate} />
         <main style={{ flex: 1, padding: "20px" }}>
           {page === "home" && <Home />}

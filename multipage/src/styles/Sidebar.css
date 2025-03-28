@@ -4,3 +4,18 @@
   padding: 10px;
   height: 100%;
 }
+button {
+  background-color: #333;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 10px 0;
+  width: 10rem;
+}
+button:hover {
+  background-color: #e4d659;
+  color: rgb(190, 34, 190);
+  border: none;
+}
