@@ -1,0 +1,23 @@
+.header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  width: 100%;
+}
+button {
+  background-color: #333;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 10px 0;
+  width: 10rem;
+}
+button:hover {
+  background-color: #e4d659;
+  color: rgb(190, 34, 190);
+  text-shadow: #da5858 1px 2px 2px;
+  border: none;
+}
